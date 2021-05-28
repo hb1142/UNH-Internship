@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding:15px 15px 15px 100px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .logo img {
+    float: left;
+    width:350px;
+    height: auto;
+    padding:15px 15px 15px 100px;
+  }
+  h1{
+    padding:0 50px;
+  }
+  nav ul li a{
+  	text-decoration: none;
+  	color:#fff;
+  	font-family:sans-serif;
+    font-size:16px;
+  	font-weight:bold;
+  	margin:0 20px;
+  	line-height:100px;
+  	text-transform:uppercase;
+  	}
+
+  </style>
+</head>
+<body>
+<div class="logo">
+  <img src="https://i.postimg.cc/QdZHGmYv/download.jpg">
+</div>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Applied Research Internship</h1>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="website.html">Home</a></li>
+        <li><a href="experiences.html">Experience highlights</a></li>
+        <li><a href="resources.html">Internship resources</a></li>
+        <li><a href="req.html">course requirements</a></li>
+        <li><a href="faqs.html">FAQ's</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  	</header>
+<h1> Experience Highlights</h1>
+
+<div class="row">
+  <div class="column">
+    <a href="surya">
+    <img src="https://i.postimg.cc/gkyPRBZX/surya.jpg" style="width:50%">
+    <p class= "heading"> <b>Surya Kranthi</b><br/>
+        Cloud Intern<br/>
+        Genia</p></a>
+  </div>
+  <div class="column">
+    <a href="mellisa">
+    <img src="https://i.postimg.cc/tCqBSrcV/melissa.jpg" style="width:50%">
+    <p class= "heading"> <b>Melissa</b><br/>
+        Developer<br/>
+        URSA</p></a>
+  </div>
+  <div class="column">
+    <a href="jagrith">
+    <img src="https://i.postimg.cc/8kHH6RCk/Jagrith.jpg" style="width:50%">
+    <p class= "heading"> <b>Jagrith</b><br/>
+        IT Intern<br/>
+        Lindt & Sprungli</p></a>
+  </div>
+  <div class="column">
+    <a href="shravani">
+    <img src="https://i.postimg.cc/ht3Z79pQ/shravani.jpg" style="width:50%">
+    <p class= "heading"> <b>Shravani</b><br/>
+        Web App Developer<br/>
+        UNH Manchester</p></a>
+  </div>
+  <div class="column">
+    <a href="kevin">
+    <img src="https://i.postimg.cc/jd1yHZYT/kevin.jpg" style="width:50%">
+    <p class= "heading"> <b>Kevin</b><br/>
+        Web Developer<br/>
+        GYK Antler</p></a>
+  </div>
+</div>
+</body>
+</html>
